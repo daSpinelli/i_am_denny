@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Denny De A Spinelli Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daSpinelli/i_am_denny.git"
+  },
+  "author": "Denny de Almeida Spinelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daSpinelli/i_am_denny/issues"
+  },
+  "homepage": "https://github.com/daSpinelli/i_am_denny#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}

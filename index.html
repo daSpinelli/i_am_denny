@@ -26,23 +26,23 @@
   </head>
   <body class="bg-light" id="top">
     <!-- Full name on top of the page -->
-    <header class="d-print-none">
-      <div class="container text-center text-lg-left">
+    <header class="d-print-none shadow-2-strong text-white bg-black">
+      <div class="container text-center text-lg-left" id="home">
         <div class="pt-4 clearfix">
-          <h1 class="site-title fw-light fs-1 mb-0">Hello, World!</h1>
+          <h1 class="site-title fw-light fs-2 mb-4">Hello, World!</h1>
           <div class="site-nav"> 
             <!-- Menu options -->
             <nav role="navigation">
               <ul class="nav justify-content-center">
-                <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
+                <li class="nav-item"><a class="nav-link" id="menu-about" href="#about" title="About"><span class="menu-title">About</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
+                <li class="nav-item"><a class="nav-link" id="menu-skills" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+                <li class="nav-item"><a class="nav-link" id="menu-experience" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+                <li class="nav-item"><a class="nav-link" id="menu-education" href="#education" title="Education"><span class="menu-title">Education</span></a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
+                <li class="nav-item"><a class="nav-link" id="menu-portfolio" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
                 </li>
               </ul>
             </nav>
@@ -63,7 +63,7 @@
             <div class="header-bio mt-3">
               <div data-aos="zoom-in" data-aos-delay="0">
                 <!-- Profile Name -->
-                <h2 class="h1">Denny de A. Spinelli</h2>
+                <h2 class="h1">Denny de Almeida Spinelli</h2>
                 <!-- Profile job title -->
                 <p>Data Scientist</p>
               </div>
@@ -84,8 +84,9 @@
       </div>
     </div>
   </div>
+  <!-- About/Intro-->
   <div class="shadow-1-strong bg-white my-5 p-5" id="about">
-    <div class="about-section">
+    <div class="about-section my-5">
       <div class="row">
         <div class="col-md-6">
           <h2 class="h2 fw-light mb-4">I am Denny! Nice to meet you!</h2>
@@ -132,7 +133,7 @@
   </div>
   <!-- Professional Skills bars-->
   <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
-    <div class="skills-section">
+    <div class="skills-section my-5">
       <h2 class="h2 fw-light mb-4">Professional Skills</h2>
       <div class="row">
         <div class="col-md-6">
@@ -184,7 +185,7 @@
   </div>
   <!-- Languages -->
   <div class="shadow-1-strong bg-white my-5 p-5" id="skills">
-    <div class="skills-section">
+    <div class="skills-section my-5">
       <h2 class="h2 fw-light mb-4">Languages</h2>
       <div class="row">
         <div class="col-md-6">
@@ -204,7 +205,7 @@
   </div>
   <!-- Work Experience -->
   <div class="shadow-1-strong bg-white my-5 p-5" id="experience">
-    <div class="work-experience-section">
+    <div class="work-experience-section my-5">
       <h2 class="h2 fw-light mb-4">Work Experience</h2>
       <div class="timeline">
         <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
@@ -212,7 +213,7 @@
             <div class="h5">Cost Analyst <span class="text-muted h6">at Modine do Brasil</span></div>
           </div>
           <div class="timeline-body px-4 pb-4">
-            <div class="text-muted text-small mb-3">May, 2019 - Present</div>
+            <div class="text-muted text-small mb-3">May, 2019 - Apr, 2022</div>
             <div>Manage manufacturing cost on SAP system. Support the strategic team on decision making with analytical reports about sales, margins, inventory management and cost reduction.</div>
           </div>
         </div>
@@ -248,7 +249,7 @@
   </div>
   <!-- Education -->
   <div class="shadow-1-strong bg-white my-5 p-5" id="education">
-    <div class="education-section">
+    <div class="education-section my-5">
       <h2 class="h2 fw-light mb-4">Education</h2>
       <div class="timeline">
         <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
@@ -292,7 +293,7 @@
   </div>
   <!-- Project Portfolio -->
   <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="portfolio">
-    <div class="portfolio-section">
+    <div class="portfolio-section my-5">
       <h2 class="h2 fw-light mb-4">Portfolio</h2>
       <div class="row g-0">
         <div class="col-md-6"><a href="https://github.com/daSpinelli/Rossmann-Sales-Prediction" target="_blank" rel="noopener noreferrer"><img class="img-fluid" src="images/project-1.jpg" width="800" height="500"/></a></div>
@@ -349,5 +350,6 @@
     <script src="scripts/mdb.min.js?ver=1.2.1"></script>
     <script src="scripts/aos.js?ver=1.2.1"></script>
     <script src="scripts/main.js?ver=1.2.1"></script>
+    <script src="scripts/analytics_tags.js?ver=1.2.1"></script>
   </body>
 </html>
