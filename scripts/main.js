@@ -4,4 +4,9 @@ AOS.init({
   duration: 1000
 });
 
-// Add your javascript here
+// Dropdown menu
+$(document).ready(function() {
+  $('.dropdown').on('click', function() {
+    $(this).toggleClass('show');
+  });
+});
